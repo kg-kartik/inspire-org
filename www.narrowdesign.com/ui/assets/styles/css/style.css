@@ -360,18 +360,50 @@ just for appearance; change whatever you want
 }
 
 .slide:nth-of-type(1){
-  background: url("random.jpg");
-  width : 400px;
+  background: url("./impact/1.jpg");
+  width : 500px;
   height : 350px;
 }
 .slide:nth-of-type(2){
-  background: url("random2.jpg");
-  width : 400px;
+  background: url("./impact/2.jpg");
+  width : 500px;
   height : 350px;
 }
 .slide:nth-of-type(3){
-  background: url("random2.jpg");
-  width : 400px;
+  background: url("./impact/3.jpg");
+  width : 500px;
+  height : 350px;
+}
+.slide:nth-of-type(4){
+  background: url("./impact/4.jpg");
+  width : 500px;
+  height : 350px;
+}
+.slide:nth-of-type(5){
+  background: url("./impact/5.jpg");
+  width : 500px;
+  height : 350px;
+}
+.slide:nth-of-type(6){
+  background: url("./impact/6.jpg");
+  width : 500px;
+  height : 350px;
+}
+
+.slide:nth-of-type(7){
+  background: url("./impact/7.jpg");
+  width : 500px;
+  height : 350px;
+}
+
+.slide:nth-of-type(8){
+  background: url("./impact/8.jpg");
+  width : 500px;
+  height : 350px;
+}
+.slide:nth-of-type(9){
+  background: url("./impact/9.jpg");
+  width : 500px;
   height : 350px;
 }
 a:focus {
