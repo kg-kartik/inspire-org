@@ -1734,6 +1734,9 @@ body.is-firefox .js-view-icon {
 .about {
   color : #f11b1b;
 }
+.future {
+  text-align : justify;
+}
 .d-none,
 .d-n {
   display: none;
