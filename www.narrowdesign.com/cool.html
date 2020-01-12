@@ -22,7 +22,7 @@
 
 #myTable {
   border-collapse: collapse;
-  width: 100%;
+  width: 110%;
   border: 1px solid #ddd;
   font-size: 18px;
 }
@@ -43,6 +43,7 @@ th {
 }
 i {
   float : right;
+  padding-right : 2%;
 }
 </style>
 </head>
@@ -55,8 +56,8 @@ i {
 <div style="overflow-x:auto;">
 <table id="myTable">
   <tr class="header">
-    <th style="width:40%;" onclick="sortTable(0)">Name<i class="material-icons">sort</i></th>
-    <th style="width:20%;" onclick="sortTable(1)">Country<i class="material-icons">sort</i></th>
+    <th style="width:30%;" onclick="sortTable(0)">Name<i class="material-icons">sort</i></th>
+    <th style="width:30%;" onclick="sortTable(1)">Country<i class="material-icons">sort</i></th>
     <th style="width:20%;" onclick="sortTable(2)"> Size <i class="material-icons">sort</i></th>
     <th style="width:20%;" onclick="sortNumberWise()"> Price <i class="material-icons">sort</th>
   </tr>
